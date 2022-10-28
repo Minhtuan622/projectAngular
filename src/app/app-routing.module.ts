@@ -2,11 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {Routes, RouterModule} from "@angular/router";
 import {LoginComponent} from "./login/login.component";
-import {AppComponent} from "./app.component";
+import {RubikComponent} from "./rubik/rubik.component";
+import {PhukienComponent} from "./phukien/phukien.component";
+import {BaivietComponent} from "./baiviet/baiviet.component";
 
 const routes: Routes = [
-  {path: 'home', component: AppComponent},
-  {path: 'login', component: LoginComponent}
+  {path: 'login', component: LoginComponent},
+  {path: 'rubik', component: RubikComponent},
+  {path: 'phukien', component: PhukienComponent},
+  {path: 'baiviet', component: BaivietComponent},
 ];
 
 @NgModule({
