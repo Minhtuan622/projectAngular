@@ -12,9 +12,11 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatTableModule} from '@angular/material/table';
 import { RubikComponent } from './rubik/rubik.component';
 import { PhukienComponent } from './phukien/phukien.component';
-import { BaivietComponent } from './baiviet/baiviet.component';
+import { BaivietComponent, AddNew } from './baiviet/baiviet.component';
 import {MatPaginatorModule} from "@angular/material/paginator";
 import {MatCheckboxModule} from "@angular/material/checkbox";
+import {MatDialogModule} from "@angular/material/dialog";
+import {MatInputModule} from "@angular/material/input";
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
     RubikComponent,
     PhukienComponent,
     BaivietComponent,
+    AddNew
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,9 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
     MatButtonModule,
     MatTableModule,
     MatPaginatorModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatDialogModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
