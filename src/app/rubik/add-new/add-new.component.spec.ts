@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PhukienComponent } from './phukien.component';
+import { AddNewComponent } from './add-new.component';
 
-describe('PhukienComponent', () => {
-  let component: PhukienComponent;
-  let fixture: ComponentFixture<PhukienComponent>;
+describe('AddNewComponent', () => {
+  let component: AddNewComponent;
+  let fixture: ComponentFixture<AddNewComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PhukienComponent ]
+      declarations: [ AddNewComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PhukienComponent);
+    fixture = TestBed.createComponent(AddNewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
+import {AfterViewInit, Component, ViewChild} from '@angular/core';
 import {MatPaginator} from '@angular/material/paginator';
 import {MatTableDataSource} from '@angular/material/table';
 import {SelectionModel} from "@angular/cdk/collections";
@@ -76,5 +76,18 @@ const ELEMENT_DATA: PeriodicElement[] = [
     subject: 'Hướng dẫn chơi Rubik toàn tập (Phần 1)',
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at cum, " +
       "distinctio dolorem eum excepturi fuga hic impedit ipsum iste labore natus nihil quaerat, quam quisquam repellendus temporibus vel, vitae!",
-    author: 'Minh Tuấn'},
+    author: 'Minh Tuấn'
+  },
+  {position: 1,
+    subject: 'Hướng dẫn chơi Rubik toàn tập (Phần 2)',
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at cum, " +
+      "distinctio dolorem eum excepturi fuga hic impedit ipsum iste labore natus nihil quaerat, quam quisquam repellendus temporibus vel, vitae!",
+    author: 'Minh Tuấn'
+  },
+  {position: 1,
+    subject: 'Hướng dẫn chơi Rubik toàn tập (Phần 2)',
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at cum, " +
+      "distinctio dolorem eum excepturi fuga hic impedit ipsum iste labore natus nihil quaerat, quam quisquam repellendus temporibus vel, vitae!",
+    author: 'Minh Tuấn'
+  },
 ];
